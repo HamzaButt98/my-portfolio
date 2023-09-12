@@ -3,7 +3,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Work, StarsC
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my-portfolio">
       <div className="relative z-1 bg-primary"> 
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen md:h-auto"> {/* Adjust height using media query */}
           <Navbar/>
